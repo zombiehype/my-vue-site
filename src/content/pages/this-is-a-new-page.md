@@ -1,4 +1,4 @@
 ---
-title: this is a new page!!!
+title: home
 ---
 new page content
