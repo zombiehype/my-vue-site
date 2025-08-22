@@ -1,6 +1,6 @@
 ---
 title: About Us
-subtitle: We are awesome!!!
+subtitle: We are awesome???
 image: /uploads/team.jpg
 microcopy: Welcome to our world
 employees:

@@ -10,7 +10,7 @@ local_backend: true
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "src/content/pages"
+    folder: "public/content/pages"
     create: true
     slug: "{{slug}}"
     fields:
@@ -20,7 +20,7 @@ collections:
   - name: "about"
     label: "About Us Page"
     files:
-      - file: "src/content/pages/about.md"
+      - file: "public/content/pages/about.md"
         label: "About Us"
         name: "about"
         fields:
