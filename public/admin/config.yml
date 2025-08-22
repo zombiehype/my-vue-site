@@ -8,15 +8,6 @@ public_folder: "/uploads"
 local_backend: true
 
 collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "public/content/pages"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "about"
     label: "About Us Page"
     files:

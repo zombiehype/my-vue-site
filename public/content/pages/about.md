@@ -7,5 +7,5 @@ employees:
   - name: Alice
     role: CEO
   - name: Bob
-    role: Developer
+    role: Developer 
 ---
