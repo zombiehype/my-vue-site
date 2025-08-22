@@ -19,15 +19,18 @@ collections:
 
   - name: "about"
     label: "About Us Page"
-    file: "src/content/pages/about.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Microcopy", name: "microcopy", widget: "string" }
-      - label: "Employees"
-        name: "employees"
-        widget: "list"
+    files:
+      - file: "src/content/pages/about.md"
+        label: "About Us"
+        name: "about"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role", name: "role", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Microcopy", name: "microcopy", widget: "string" }
+          - label: "Employees"
+            name: "employees"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
