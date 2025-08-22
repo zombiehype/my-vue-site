@@ -5,7 +5,7 @@
     <img v-if="page.image" :src="page.image" alt="" />
     <p v-if="page.microcopy">{{ page.microcopy }}</p>
 
-    <div v-for="employee in page.employees">
+    <div v-for="employee in page.employees" class="employee">
       <h3>{{ employee.name }}</h3>
       <div>{{ employee.role }}</div>
     </div>
@@ -27,4 +27,10 @@ export default {
 
 <style>
 h1,h2,h3,h4 { font-weight: bold;}
+
+.employee {
+  border: 1px solid silver;
+  padding: 10px;
+  margin-bottom: 5px;
+}
 </style>
