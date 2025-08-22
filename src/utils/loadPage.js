@@ -1,7 +1,7 @@
 import yaml from "yaml"
 
 export async function loadPage(slug) {
-  const res = await fetch(`/src/content/pages/${slug}.md`)
+  const res = await fetch(`/content/pages/${slug}.md`)
   const raw = await res.text()
 
   const match = raw.match(/^---([\s\S]*?)---/)
