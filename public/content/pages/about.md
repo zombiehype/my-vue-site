@@ -2,10 +2,10 @@
 title: About Us
 subtitle: We are awesome???
 image: /uploads/team.jpg
-microcopy: Welcome to our world
+microcopy: Welcome to our world lorem ipsum
 employees:
   - name: Alice
     role: CEO
   - name: Bob
-    role: Developer 
---- 
+    role: Developer
+---
