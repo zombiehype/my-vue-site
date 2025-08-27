@@ -8,4 +8,6 @@ employees:
     role: CEO
   - name: Bob
     role: Developer
+  - name: Annalisa
+    role: Test
 ---
